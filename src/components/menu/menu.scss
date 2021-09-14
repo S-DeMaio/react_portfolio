@@ -4,8 +4,8 @@
     height: 100vh;
     background-color: $mainColor;
     position: fixed;
-    top: -100vh;
-    right: 0px;
+    top: 0;
+    right: -300px;
     z-index: 2;
     display: flex;
     flex-direction: column;
@@ -14,7 +14,7 @@
     transition: all 1.1s ease;
 
     &.active{
-        top: 0;
+        right: 0;
     }
 
     ul{

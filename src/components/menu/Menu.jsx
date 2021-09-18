@@ -6,16 +6,16 @@ export default function Menu({menuOpen, setMenuOpen}) {
         <div className={"menu " + (menuOpen && "active")}>
             <ul onClick={()=>setMenuOpen(false)}>
                 <li >
-                    <a href="#intro">Home</a>
+                    <a href="#intro">Home</a>    
+                </li>    
+                <li >
+                    <a href="#portfolio">Portfolio</a>    
                 </li>
                 <li >
-                    <a href="#portfolio">Portfolio</a>
+                    <a href="#works">Works</a>    
                 </li>
                 <li >
-                    <a href="#works">Works</a>
-                </li>
-                <li >
-                    <a href="#testimonials">Testimonials</a>
+                    <a href="#testimonials">Testimonials</a>    
                 </li>
                 <li>
                     <a href="#contact">Contact</a>
